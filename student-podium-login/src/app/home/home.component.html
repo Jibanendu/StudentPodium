@@ -1,0 +1,9 @@
+<h1>Welcome {{currentUser.emailAddress}}!</h1>
+<p>You're logged in Student-Podium </p>
+<!--<ul>
+    <li *ngFor="let user of users">
+        {{user.emailAddress}} ({{user.role}}
+        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+    </li>
+</ul>-->
+<p><a [routerLink]="['/login']">Logout</a></p>
